@@ -63,11 +63,17 @@ header {
 
 header .logo {
   font-size: var(--font-large);
+  cursor: not-allowed;
 }
 
 header .logo i {
   color: var(--red-color);
   font-size: 20px;
+  cursor: not-allowed;
+}
+
+header .icons {
+  cursor: not-allowed;
 }
 
 header .icons .fa-magnifying-glass {
@@ -246,6 +252,7 @@ header .icons .fa-magnifying-glass {
 
 .upNext .item .more {
   flex: 1 1 5%;
+  cursor: not-allowed;
 }
 
 .upNext .item .info {
