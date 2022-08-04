@@ -26,6 +26,10 @@
   --main-border: 1px solid rgba(0, 0, 0, 0.2);
 }
 
+.disabled {
+  pointer-events: none;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -146,6 +150,7 @@ header .icons .fa-magnifying-glass {
   flex-direction: column;
   font-size: var(--font-small);
   color: var(--grey-dark-color);
+  cursor: pointer;
 }
 
 .info .actions button i {
@@ -155,7 +160,12 @@ header .icons .fa-magnifying-glass {
 }
 
 .info .actions button i.active {
-  color: var(--blue-color);
+  color: var(--grey-dark-color);
+  cursor: pointer;
+}
+
+.info .actions button i.not-allowed {
+  cursor: not-allowed;
 }
 
 /* Channel Info */
@@ -201,6 +211,7 @@ header .icons .fa-magnifying-glass {
   text-transform: uppercase;
   color: var(--red-color);
   font-size: var(--font-medium);
+  cursor: pointer;
 }
 
 /* Up Next */
