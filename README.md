@@ -3,11 +3,14 @@
 ### YouTube Clone Project
 
 This is a simple cloning project of YouTube to understand and experience the design of it.
+Visit here to view: https://jonosong.github.io/WeTube/
 
-## Note
-Please note that this project is not yet complete - More JS features are planned to be added on. 
-
-Visit here to view: https://jonosong.github.io/wetube/
+## Features
+- Video Control
+- Like and Dislike buttons: disables one if the other is clicked).
+- Subscribe button: changes to 'Unsubscribe' and the number of subscribers when clicked and back to the original when clicked again.
+- Covers both mobile and desktop screens
+- Links to some of my YouTube covers :)
 
 ## Technologies
 
